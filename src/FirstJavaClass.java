@@ -82,13 +82,83 @@ public class FirstJavaClass {
 //            System.out.println("invalid grade");
 //        }
 
+        // switch case
 
+//        char grade = sc.next().charAt(0);
+//
+//        switch (grade) {
+//            case 'A':
+//                System.out.println("your grade is very good");
+//                break;
+//            case 'B':
+//                System.out.println("very good, keep learning");
+//                break;
+//            case 'D':
+//                System.out.println("keep improving");
+//                break;
+//            default:
+//                System.out.println("wrong argument");
+//        }
 
+        // for, while, do-while
 
+//        for(int i = 0; i < 5; i++){
+//            System.out.println("Parth ");
+//        }
+//        int a = 11;
+//        while (true) {
+//            System.out.println(a);
+//            a++;
+//            if (a > 10){
+//                break;
+//            }
+//        }
 
+//        int a = 1;
+//        do{
+//            System.out.println(a);
+//            a++;
+//        } while (a < 10);
 
+        // array
 
+//        int marks[] = new int[5];
 
+//        marks[0] = 23;
+//        marks[1] = 12;
+//        marks[2] = 56;
+//        marks[3] = 23;
+//        marks[4] = 12;
+
+//        int marks[] = {23, 25, 26, 12, 13, 14};
+//
+//        for (int i = 0; i < marks.length; i++){
+//            System.out.println(marks[i]);
+//        }
+
+//        int a[][] = new int[2][3];
+
+//        int a[][] = {
+//                {
+//                    1, 2
+//                }, {
+//                    3, 4
+//        }
+//        };
+//
+//        System.out.println(a[0][1]);
+
+        // method
+
+        // returnType functionName (arguments) {}
+
+        System.out.println(average(1, 2));
+
+    }
+
+    static int average(int firstNumber, int secondNumber){
+        int sum =  firstNumber + secondNumber;
+        return  sum/2;
 
     }
 }
