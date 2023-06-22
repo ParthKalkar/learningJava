@@ -48,17 +48,21 @@ public class FirstJavaClass {
 
         // taking user input
         Scanner sc = new Scanner((System.in));
-        System.out.println("Enter your age:");
+//        System.out.println("Enter your age:");
+//
+//        // primitive data types are the one where the
+//        // java has already defined the value
+//
+//        int age = sc.nextInt();
+//        float grade = sc.nextFloat();
+//
+//        System.out.println(grade/10);
+//
+//        System.out.println(age * 2);
 
-        // primitive data types are the one where the
-        // java has already defined the value
+//        String name = sc.nextLine();
+//        System.out.println("Hello " + name);
 
-        int age = sc.nextInt();
-        float grade = sc.nextFloat();
-
-        System.out.println(grade/10);
-
-        System.out.println(age * 2);
 
 
 
