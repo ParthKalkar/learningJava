@@ -63,6 +63,15 @@ public class FirstJavaClass {
 //        String name = sc.nextLine();
 //        System.out.println("Hello " + name);
 
+        int age = 12;
+        if (age > 18){
+            System.out.println("you can vote");
+        } else {
+            System.out.println("you cannot vote");
+        }
+
+
+
 
 
 
