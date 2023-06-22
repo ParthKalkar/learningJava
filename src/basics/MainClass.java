@@ -1,5 +1,7 @@
 package basics;
 
+import encapsulation.EncapsulationIntro;
+
 public class MainClass {
 
     public static void main(String[] args){
@@ -30,10 +32,14 @@ public class MainClass {
 //
 //        System.out.println(Person.count);
 
-        Developer d1 = new Developer(24, "Erik");
+//        Developer d1 = new Developer(24, "Erik");
+//
+//        d1.walk(1000);
+//        d1.walk();
 
-        d1.walk(1000);
-        d1.walk();
+        EncapsulationIntro obj = new EncapsulationIntro();
+
+        obj.doWork();
     }
 }
 
