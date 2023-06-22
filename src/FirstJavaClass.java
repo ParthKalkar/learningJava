@@ -63,12 +63,24 @@ public class FirstJavaClass {
 //        String name = sc.nextLine();
 //        System.out.println("Hello " + name);
 
-        int age = 12;
-        if (age > 18){
-            System.out.println("you can vote");
-        } else {
-            System.out.println("you cannot vote");
-        }
+//        int age = sc.nextInt();
+//        if (age > 18){
+//            System.out.println("you can vote");
+//        } else {
+//            System.out.println("you cannot vote");
+//        }
+
+//        char grade = sc.next().charAt(0);
+//
+//        if (grade == 'A'){
+//            System.out.println("your grade is very good");
+//        } else if (grade == 'B') {
+//            System.out.println("very good, keep learning");
+//        } else if (grade == 'D') {
+//            System.out.println("keep improving");
+//        } else  {
+//            System.out.println("invalid grade");
+//        }
 
 
 
