@@ -1,6 +1,7 @@
 package CollectionFramework;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class LearnArrayList {
@@ -38,14 +39,35 @@ public class LearnArrayList {
 
         System.out.println(list);
 
-        list.remove(1);
+//        list.remove(1);
+//        System.out.println(list);
+//
+//        list.remove(Integer.valueOf(80));
+//        System.out.println(list);
+//
+//        list.clear();
+//        System.out.println(list);
+
+        list.set(3, 1000);
         System.out.println(list);
 
-        list.remove(Integer.valueOf(80));
-        System.out.println(list);
+        System.out.println(list.contains(1000));
 
-        list.clear();
-        System.out.println(list);
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println("the element is " + +list.get(i));
+        }
+        System.out.println();
+
+        for (Integer element: list
+             ) {
+            System.out.println("foreach element is " + element);
+        }
+
+        Iterator<Integer> it = list.iterator();
+
+        while (it.hasNext()) {
+            System.out.println("while element is " + it.next());
+        }
 
 
     }
